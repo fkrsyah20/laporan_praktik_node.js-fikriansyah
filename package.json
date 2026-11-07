@@ -1,0 +1,14 @@
+{
+  "name": "praktik-server-nodejs",
+  "version": "1.0.0",
+  "description": "Praktik server web dan REST API sederhana dengan Node.js - Muhamad Fikriansyah (24260028)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test-api.js"
+  },
+  "engines": { "node": ">=18" },
+  "author": "Muhamad Fikriansyah",
+  "license": "ISC"
+}

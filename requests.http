@@ -1,0 +1,25 @@
+### Opsional: pasang ekstensi "REST Client" (humao.rest-client) di VS Code,
+### lalu klik tulisan "Send Request" di atas setiap permintaan.
+### Pastikan server sudah berjalan (npm start).
+
+@host = http://localhost:3000
+
+### 1. Ambil data profil
+GET {{host}}/api/profil
+
+### 2. Ambil daftar teknologi
+GET {{host}}/api/teknologi
+
+### 3. Ambil daftar target belajar
+GET {{host}}/api/target
+
+### 4. Tambah target belajar baru
+POST {{host}}/api/target
+Content-Type: application/json
+
+{
+  "judul": "Mempelajari Express.js"
+}
+
+### 5. Hapus target dengan id 4
+DELETE {{host}}/api/target/4
